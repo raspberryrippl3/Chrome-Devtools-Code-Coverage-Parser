@@ -1,3 +1,3 @@
-# Export only the used CSSstyles from a Chrome Devtools coverage JSON export
+# Chrome Devtools Code Coverage Parser
 
-Simple PHP script to extract used CSS from a Google Chrome coverage export
+Simple PHP script to extract used CSS from a Google Chrome coverage JSON export
