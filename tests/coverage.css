@@ -1,0 +1,14 @@
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+.bold {
+    font-weight: bold;
+}
+
+figure {
+    font-style: italic;
+}
+
+.italic {
+    font-style: italic;
+}
