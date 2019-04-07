@@ -10,7 +10,7 @@ Update the following variables:
 
 **$output_filename** = the name of the resultant CSS file you want
 
-Example on a test site:
+Example on a test site purging the themes bundled CSS:
 
 **Before:**
 
@@ -20,4 +20,4 @@ Example on a test site:
 
 ![after](https://user-images.githubusercontent.com/46265707/55680703-fb30ad00-5914-11e9-8dbe-24f963e48e6e.png)
 
-The process isn't perfect, especially on styles that are changed dynamically (like menus for example) by scripts
+The process isn't perfect, especially on styles that are changed dynamically (like nav menus for example) by scripts
