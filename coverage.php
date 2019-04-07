@@ -2,6 +2,8 @@
 
 $target_css = '/coverage/css/style.css';
 $json_string = 'Coverage-20190407T080649.json';
+$output_filename = 'output.css';
+
 $jsondata = file_get_contents($json_string);
 $obj = json_decode($jsondata,true);
 $output_css = '';
@@ -19,7 +21,6 @@ foreach( $obj as $arr ) {
 }
 
 echo $output_css;
-$file = 'output.css';
-file_put_contents($file, $output_css);
+file_put_contents($output_filename, $output_css);
 
 ?>
