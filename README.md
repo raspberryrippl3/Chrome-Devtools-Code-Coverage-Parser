@@ -12,7 +12,7 @@ Update the following variables:
 
 # Example on a test site 
 
-Purging the WordPress template bundled CSS:
+Purging the WordPress template bundled CSS which saved approx 300 KB
 
 **Before:**
 
