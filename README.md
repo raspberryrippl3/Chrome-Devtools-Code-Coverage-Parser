@@ -9,3 +9,15 @@ Update the following variables:
 **$json_string** = path to your Google Chrome coverage JSON export file
 
 **$output_filename** = the name of the resultant CSS file you want
+
+Example on a test site:
+
+**Before:**
+
+![before](https://user-images.githubusercontent.com/46265707/55680704-fb30ad00-5914-11e9-8bf5-ece7fcaea7c3.png)
+
+**After:**
+
+![after](https://user-images.githubusercontent.com/46265707/55680703-fb30ad00-5914-11e9-8dbe-24f963e48e6e.png)
+
+The process isn't perfect, especially on styles that are changed dynamically (like menus for example) by scripts
