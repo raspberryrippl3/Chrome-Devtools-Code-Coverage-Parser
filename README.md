@@ -10,7 +10,9 @@ Update the following variables:
 
 **$output_filename** = the name of the resultant CSS file you want
 
-Example on a test site purging the themes bundled CSS:
+# Example on a test site 
+
+Purging the WordPress template bundled CSS:
 
 **Before:**
 
