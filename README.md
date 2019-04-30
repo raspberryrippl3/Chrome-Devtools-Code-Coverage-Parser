@@ -24,4 +24,4 @@ Purging a CSS file of unused styles, saving approx 300 KB
 
 The process isn't perfect, especially on styles that are changed dynamically (like nav menus for example) by scripts. But it's a lot better than trying to use post-css or similar.
 
-Best advice is to run it through the parser and see where the obvious problems are with removed styles, extract that specific CSS into it's own stylesheet (e.g. remove it from being picked up by the Chrome coverage report), then run through the process again on the stylesheet.
+Best advice is to run it through the parser and see where the obvious problems are with removed styles, extract those specific CSS rules into their own stylesheet (e.g. remove it from being picked up by the Chrome coverage report), then run through the process again on the stylesheet.
