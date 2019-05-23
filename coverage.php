@@ -1,8 +1,9 @@
 <?php
 
+// A simple search string for the css you want to target in the coverage export
 $target_css = '/coverage/css/style.css';
 $json_string = 'Coverage-20190407T080649.json';
-$output_filename = 'output.css';
+$output_filename = 'style.css';
 
 $jsondata = file_get_contents($json_string);
 $obj = json_decode($jsondata,true);
