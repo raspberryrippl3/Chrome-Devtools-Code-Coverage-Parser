@@ -2,6 +2,8 @@
 
 Simple PHP script to extract used CSS from a Google Chrome Devtools coverage JSON export. The export feature was added in Chrome 73
 
+Note: This script was created to work when you 'record' in DevTools coverage across pages. Behaviour of the coverage tool seems to change over time (see: https://bugs.chromium.org/p/chromium/issues/detail?id=811983) and no longer records coverage across pages. You can still use it on one page but there's no real point in that.
+
 Update the following variables:
 
 **$target_css** = relative URL of the specific stylesheet you want to parse from the coverage export
